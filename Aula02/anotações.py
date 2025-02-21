@@ -132,8 +132,8 @@ import math #>>> biblioteca inclusa no python
 math.sqrt(16) #>>> raiz
 math.pi() #>>> pi
 
-import random #>>> mais bibliotecas iclusas
+import random #>>> mais bibliotecas inclusas
 random.randint(1,10) #>>> rng de 1-10
 
-import datetime
+import datetime #>>> mais bibliotecas inclusas
 agora = datetime.datetime.now()
