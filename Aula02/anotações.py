@@ -105,3 +105,35 @@ list = ["banana", "maçã", "pêra"]
 def append(list, item):
     list.append(item)
 append(list, "uva")
+#programacao orientada a objetos (POO)
+class Pessoa: #>>> criar um objeto (n eh string, nem int, nem bool, nem float)
+    def __init__(self,nome,idade,peso,altura): #definir os parametros de tal objeto
+        self.nome = nome #>>> seta os valores entregues à função para as variáveis do objeto
+        self.idade = idade #>>> "
+        self.peso = peso #>>> "
+        self.altura = altura #>>> "
+    def apresentar(self): #>>> funcão para o objeto
+        print(f"Olá meu nome é {self.nome} e eu tenho {self.idade} anos.")
+    def calcular_imc(self): #>>> funcão para o objeto
+        imc = self.peso / (self.altura ** 2)
+        return imc
+
+p1 = Pessoa("Pedro", 25, 70, 1.75)
+p1.apresentar()
+print(f"Meu imc é {p1.calcular_imc():.2f}")
+
+#==================================DESAFIO==================================#
+#|       #criar um objeto (class) e criar funções (methods) para ele        |
+#===========================================================================# 
+
+#importar modulos e bibliotecas
+import math #>>> biblioteca inclusa no python
+    #exemplo de methods q vem
+math.sqrt(16) #>>> raiz
+math.pi() #>>> pi
+
+import random #>>> mais bibliotecas iclusas
+random.randint(1,10) #>>> rng de 1-10
+
+import datetime
+agora = datetime.datetime.now()
