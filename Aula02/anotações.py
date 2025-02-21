@@ -130,10 +130,17 @@ print(f"Meu imc é {p1.calcular_imc():.2f}")
 import math #>>> biblioteca inclusa no python
     #exemplo de methods q vem
 math.sqrt(16) #>>> raiz
-math.pi() #>>> pi
 
 import random #>>> mais bibliotecas inclusas
 random.randint(1,10) #>>> rng de 1-10
 
 import datetime #>>> mais bibliotecas inclusas
 agora = datetime.datetime.now()
+
+#instalar biblioteca com pip ("pip install request" no terminal)
+
+#Respostas Informativas (100 – 199)
+#Respostas bem-sucedidas (200 – 299)
+#Mensagens de redirecionamento (300 – 399)
+#Respostas de erro do cliente (400 – 499)
+#Respostas de erro do servidor (500 – 599)  
